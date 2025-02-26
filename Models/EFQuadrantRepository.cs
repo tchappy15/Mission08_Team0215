@@ -2,7 +2,7 @@
 
 namespace Mission08_Team0215.Models
 {
-    public class EFQuadrantRepository : IQuadrantrepository
+    public class EFQuadrantRepository : IQuadrantRepository
     {
         private QuadrantsContext _context;
         public EFQuadrantRepository(QuadrantsContext temp)

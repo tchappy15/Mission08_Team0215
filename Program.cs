@@ -11,7 +11,7 @@ builder.Services.AddDbContext<QuadrantsContext>(options =>
     options.UseSqlite(builder.Configuration["ConnectionStrings:QuadrantsConnection"]);
 });
 
-// builder.Services.AddScoped<IQuadrantRepository, EFQuadrantRepository>();
+builder.Services.AddScoped<IQuadrantRepository, EFQuadrantRepository>();
 
 var app = builder.Build();
 
