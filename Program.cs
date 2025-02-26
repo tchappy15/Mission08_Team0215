@@ -1,3 +1,6 @@
+using Microsoft.EntityFrameworkCore;
+using Mission08_Team0215.Models;
+
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
@@ -7,6 +10,8 @@ builder.Services.AddDbContext<QuadrantsContext>(options =>
 {
     options.UseSqlite(builder.Configuration["ConnectionStrings:QuadrantsConnection"]);
 });
+
+// builder.Services.AddScoped<IQuadrantRepository, EFQuadrantRepository>();
 
 var app = builder.Build();
 

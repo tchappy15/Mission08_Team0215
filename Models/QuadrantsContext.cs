@@ -1,4 +1,6 @@
 ﻿using System;
+using Microsoft.EntityFrameworkCore;
+using Mission08_Team0215.Models;
 
 // Set up the DB Connection
 public class QuadrantsContext : DbContext
@@ -6,8 +8,9 @@ public class QuadrantsContext : DbContext
     public QuadrantsContext(DbContextOptions<QuadrantsContext> options) : base(options)
     {
     }
+    
+    public DbSet<Quadrant> Quadrants { get; set; }
     // Connect Category table
-
     public DbSet<Category> Categories { get; set; }
 
     // Create the conversion between CategoryId and Category Name
