@@ -14,9 +14,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Thomas\\source\\repos\\Mission08\\Mission08\\Mission08.csproj",
-      "projectName": "Mission08",
-      "projectPath": "C:\\Users\\Thomas\\source\\repos\\Mission08\\Mission08\\Mission08.csproj",
+      "projectUniqueName": "C:\\Users\\Thomas\\source\\repos\\Mission08\\Mission08\\Mission08_Team0215.csproj",
+      "projectName": "Mission08_Team0215",
+      "projectPath": "C:\\Users\\Thomas\\source\\repos\\Mission08\\Mission08\\Mission08_Team0215.csproj",
       "packagesPath": "C:\\Users\\Thomas\\.nuget\\packages\\",
       "outputPath": "C:\\Users\\Thomas\\source\\repos\\Mission08\\Mission08\\obj\\",
       "projectStyle": "PackageReference",
