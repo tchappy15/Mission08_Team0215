@@ -4,6 +4,7 @@
     {
         List<Quadrant> Quadrants { get; }
 
-        public void AddQuadrant(Quadrant manager);
+        public void AddQuadrant(Quadrant quadrant);
+        
     }
 }
